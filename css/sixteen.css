@@ -57,42 +57,42 @@ header a {
 .who {
     height: 577px;
     background-color: #f7f7f7;
+    padding:90px 0;
 }
-.who img:nth-of-type(1) {
-    padding-top: 118px;
+.who img {
+    background-image: url("../img/man%20who%20we%20are.png");
+    margin-top: 118px;
     padding-left:215px;
+    background-repeat:no-repeat;
+    background-position:center left;
 }
 .who h3 {
-    padding-top: 47px;
     font-size: 30px;
     font-family: "Source Sans Pro";
     font weight: bold;
     color: #c8c8c8;
-    padding-left: 285px;
+    padding-left: 71px;
+    margin-bottom: 58px;
 }
-.who p:first-of-type {
-    padding-top: 35px;
-    padding-left: 217px;
+.who p:first-of-type {    
     color: #c8c8c8;
     font-size: 18px;
     font-family: "Source Sans Pro";
     font weight: medium;
     width: 769px;
+    margin-bottom: 31px
 }
-.who p:last-of-type {
-    padding-top: 35px;
-    padding-left: 217px;
+.who p:last-of-type {    
     color: #c8c8c8;
     Font-size: 18px;
     font-family: "Source Sans Pro";
     font-weight: medium;
-    width: 769px;
 }
-.who img:nth-of-type(2) {
+.who img:first-of-type {
     padding-right: 328px;
     padding-top: 91px;
 }
-.who img:nth-of-type(3) {
+.who img:last-of-type {
     margin-left: 0px;
     padding-top: 48px;
 }
