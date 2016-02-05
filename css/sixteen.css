@@ -21,7 +21,7 @@ nav a:hover {
 }
 
 .container {
-    width: 1170px;
+    width: 1600px;
     margin: 0 auto;
 }
 .right {
@@ -59,7 +59,7 @@ header a {
     background-color: #f7f7f7;
     padding:90px 0;
 }
-.class {
+.container {
     margin-left: 216px;
     width: 769px;
 }
