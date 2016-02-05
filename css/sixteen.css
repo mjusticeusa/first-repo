@@ -21,7 +21,7 @@ nav a:hover {
 }
 
 .container {
-    width: 1600px;
+    width: 1170px;
     margin: 0 auto;
 }
 .right {
@@ -59,25 +59,33 @@ header a {
     background-color: #f7f7f7;
     padding:90px 0;
 }
-.container {
-    margin-left: 216px;
+.who .container div {
     width: 769px;
+    display: inline-block;
 }
-.who img {
-    background-image: url("../img/man%20who%20we%20are.png");
-    margin-top: 27px;
-    padding-left:215px;
-    background-repeat:no-repeat;
-    background-position:center left;
-    margin-bottom: 44px;
+.who .container > img {     
+   margin-left: 140px;
+   display:inline-block;
 }
 .who h3 {
     font-size: 30px;
     font-family: "Source Sans Pro";
     font weight: bold;
     color: #c8c8c8;
-    padding-left: 71px;
     margin-bottom: 58px;
+}
+.who h3 img {
+    margin-right: 30px;
+}
+.who a {
+    border: 1px solid #9abd67;
+    padding: 10px 20px;
+    color: #9abd67;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
 }
 .who p:first-of-type {    
     color: #c8c8c8;
@@ -91,12 +99,4 @@ header a {
     Font-size: 18px;
     font-family: "Source Sans Pro";
     font-weight: medium;
-}
-.who img:first-of-type {
-    padding-right: 328px;
-    padding-top: 91px;
-}
-.who img:last-of-type {
-    margin-left: 0px;
-    padding-top: 48px;
 }
