@@ -64,7 +64,7 @@ header a {
 }
 .who header {
     padding-top: 140px;
-    font-size: 30px;
+    font-size: 245px;
     font-family: "Source Sans Pro";
     font weight: bold;
     color: #c8c8c8;
@@ -73,20 +73,20 @@ header a {
 }
 .who p:first-of-type {
     padding-top: 220px;
+    padding-left: 217px;
     color: #c8c8c8;
     font-size: 18px;
     font-family: "Source Sans Pro";
     font weight: medium;
-    text-align: left;
     width: 769px;
 }
 .who p:last-of-type {
     padding-top: 35px;
+    padding-left: 217px;
     color: #c8c8c8;
     Font-size: 18px;
     font-family: "Source Sans Pro";
     font-weight: medium;
-    text-align: left;
     width: 769px;
 }
 .who img:nth-of-type(2) {
