@@ -59,6 +59,7 @@ header a {
     background-color: #f7f7f7;
     background-image: url("../img/man%20who%20we%20are.png");
     background-position: top left;
+    background-repeat:no-repeat;
 }
 .who header {
     padding-top: 140px;
@@ -84,11 +85,13 @@ header a {
     font-weight: medium;
     text-align: left;
 }
-.who image {
-    background-image: url("../img/cell%20phone.png");
-    background-position: right center;
+.who img {
+    image: "/img/cell%20phone.png";
+    padding-left: 140px;
+    padding-top: 91px;
 }
-.who image {
-    background-image: url("../img/learn%20more%20button.png");
-    background-position: bottom left;
+.who img {
+image: "/img/learn%20more%20button.png";
+    margin-left: 0px
+    padding-top: 48px
 }
