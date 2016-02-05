@@ -54,3 +54,41 @@ header a {
     margin-top: 132px;
     display: block;
 }
+.who {
+    height: 577px;
+    background-color: #f7f7f7;
+    background-image: url("../img/man%20who%20we%20are.png");
+    background-position: top left;
+}
+.who header {
+    padding-top: 140px;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+    font weight: bold;
+    color: #c8c8c8;
+    text-align: top left;
+}
+.who p:first-of-type {
+    padding-top: 220px;
+    color: #c8c8c8;
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    font weight: medium;
+    text-align: left;      
+}
+.who p:last-of-type {
+    padding-top:306px;
+    color: #c8c8c8;
+    Font-size: 18px;
+    font-family: "Source Sans Pro";
+    font-weight: medium;
+    text-align: left;
+}
+.who image {
+    background-image: url("../img/cell%20phone.png");
+    background-position: right center;
+}
+.who image {
+    background-image: url("../img/learn%20more%20button.png");
+    background-position: bottom left;
+}
