@@ -59,6 +59,10 @@ header a {
     background-color: #f7f7f7;
     padding:90px 0;
 }
+.class {
+    margin-left: 216px;
+    width: 769px;
+}
 .who img {
     background-image: url("../img/man%20who%20we%20are.png");
     margin-top: 118px;
@@ -79,7 +83,6 @@ header a {
     font-size: 18px;
     font-family: "Source Sans Pro";
     font weight: medium;
-    width: 769px;
     margin-bottom: 31px
 }
 .who p:last-of-type {    
