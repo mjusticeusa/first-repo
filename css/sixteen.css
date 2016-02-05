@@ -57,9 +57,10 @@ header a {
 .who {
     height: 577px;
     background-color: #f7f7f7;
-    background-image: url("../img/man%20who%20we%20are.png");
-    background-position: top left;
-    background-repeat:no-repeat;
+}
+    .who image {    image: "/img/man%20who%20we%20are.png";
+    padding-top: 118px;
+    padding-left:215px;
 }
 .who header {
     padding-top: 140px;
@@ -67,7 +68,8 @@ header a {
     font-family: "Source Sans Pro";
     font weight: bold;
     color: #c8c8c8;
-    text-align: top left;
+    padding-left: 24px;
+    padding-top: 139px;
 }
 .who p:first-of-type {
     padding-top: 220px;
