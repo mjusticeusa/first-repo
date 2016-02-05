@@ -75,15 +75,17 @@ header a {
     font-size: 18px;
     font-family: "Source Sans Pro";
     font weight: medium;
-    text-align: left;      
+    text-align: left;
+    width: 769px;
 }
 .who p:last-of-type {
-    padding-top:306px;
+    padding-top: 35px;
     color: #c8c8c8;
     Font-size: 18px;
     font-family: "Source Sans Pro";
     font-weight: medium;
     text-align: left;
+    width: 769px;
 }
 .who img {
     image: "/img/cell%20phone.png";
