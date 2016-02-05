@@ -58,7 +58,7 @@ header a {
     height: 577px;
     background-color: #f7f7f7;
 }
-    .who image {    image: "/img/man%20who%20we%20are.png";
+.who img:nth-of-type(1) {
     padding-top: 118px;
     padding-left:215px;
 }
@@ -89,13 +89,11 @@ header a {
     text-align: left;
     width: 769px;
 }
-.who img {
-    image: "/img/cell%20phone.png";
+.who img:nth-of-type(2) {
     padding-left: 140px;
     padding-top: 91px;
 }
-.who img {
-image: "/img/learn%20more%20button.png";
-    margin-left: 0px
-    padding-top: 48px
+.who img:nth-of-type(3) {
+    margin-left: 0px;
+    padding-top: 48px;
 }
