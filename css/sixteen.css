@@ -65,10 +65,11 @@ header a {
 }
 .who img {
     background-image: url("../img/man%20who%20we%20are.png");
-    margin-top: 118px;
+    margin-top: 27px;
     padding-left:215px;
     background-repeat:no-repeat;
     background-position:center left;
+    margin-bottom: 44px;
 }
 .who h3 {
     font-size: 30px;
