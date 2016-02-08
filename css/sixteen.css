@@ -1,102 +1,109 @@
 nav {
-    background-color: #acd373;
-    height: 106px;
-    line-height: 106px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+  background-color: #acd373;
+  height: 106px;
+  line-height: 106px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  position: relative;
+  z-index: 1;
 }
 nav img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 nav a {
-    font-family: "Source Sans Pro";
-    font-weight: bold;
-    font-size: 18px;
-    color: #f7f7f7;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin: 0 14px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 18px;
+  color: #f7f7f7;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 14px;
 }
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .container {
-    width: 1170px;
-    margin: 0 auto;
+  width: 1170px;
+  margin: 0 auto;
 }
 .right {
-    float: right;
+  float: right;
 }
 
 header {
-    text-align: center;
-    height: 700px;
-    background-color: #9abd67;
-    background-image: url("../img/skyline.png");
-    background-repeat: no-repeat;
-    background-position: bottom center;
+  text-align: center;
+  height: 700px;
+  background-color: #9abd67;
+  background-image: url("../img/skyline.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
 header h1 {
-    padding-top: 230px;
-    color: #f7f7f7;
-    font-size: 48px;
-    font-family: "Source Sans Pro";
-    font-weight: bold;
+  padding-top: 230px;
+  color: #f7f7f7;
+  font-size: 48px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
 }
 header h2 {
-    margin-top: 30px;
-    font-size: 24px;
-    font-family: "DroidSerif";
-    font-style: italic;
-    color: #f7f7f7;
+  margin-top: 30px;
+  font-size: 24px;
+  font-family: "DroidSerif";
+  font-style: italic;
+  color: #f7f7f7;
 }
 header a {
-    margin-top: 132px;
-    display: block;
+  margin-top: 132px;
+  display: block;
 }
 .who {
-    height: 577px;
-    background-color: #f7f7f7;
-    padding:90px 0;
-}
-.who .container div {
-    width: 769px;
-    display: inline-block;
-}
-.who .container > img {     
-   margin-left: 140px;
-   display:inline-block;
+  padding: 90px 0;
+  font-family: "Source Sans Pro";
+  color: #454545;
 }
 .who h3 {
-    font-size: 30px;
-    font-family: "Source Sans Pro";
-    font weight: bold;
-    color: #c8c8c8;
-    margin-bottom: 58px;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 .who h3 img {
-    margin-right: 30px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.who p {
+  font-size: 18px;
+}
+.who p + p {
+  margin-top: 30px;
 }
 .who a {
-    border: 1px solid #9abd67;
-    padding: 10px 20px;
-    color: #9abd67;
-    text-decoration: none;
-    font-style: italic;
-    font-size: 18px;
-    display: inline-block;
-    margin-top: 20px;
+  border: 1px solid #acd373;
+  color: #acd373;
+  font-family: "DroidSerif";
+  font-style: italic;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 45px;
 }
-.who p:first-of-type {    
-    color: #c8c8c8;
-    font-size: 18px;
-    font-family: "Source Sans Pro";
-    font weight: medium;
-    margin-bottom: 31px
+.who .container div {
+  width: 769px;
+  display: inline-block;
+  vertical-align: top;
 }
-.who p:last-of-type {    
-    color: #c8c8c8;
-    Font-size: 18px;
-    font-family: "Source Sans Pro";
-    font-weight: medium;
+.who .container > img {
+  display: inline-block;
+  margin-left: 140px;
 }
+
+.video {
+  background: url('../img/video-bg.jpg') no-repeat top center;
+  height: 523px;
+  line-height: 523px;
+  text-align: center;
+}
+.video img {
+  vertical-align: middle;
+}
+
