@@ -106,4 +106,52 @@ header a {
 .video img {
   vertical-align: middle;
 }
+ul, li. h5, em {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background: black;
+}
+.ourTeam li {
+  margin: 70px 15px 0 150px;
+  background: white;
+  text-align: center;
+  width: 270px;
+  height: 247px;
+  position: relative;
+  border-radius: 3px;
+  display: inline-block;
+}
+.ourTeam li > img {
+  margin-top: -70px;
+  border-radius: 50%;
+  border: 5px solid #acd373;
+}
+.ourTeam li h5 {
+  font-family: "Source Sans Pro";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  color: #acd373;
+  margin-top: 15px;
+}
+.ourTeam li em {
+  font-family: "DroidSerif";
+  font-style: italic;
+  font-size: 16px;
+  color: #787878;
+  margin-top: 9px;
+  display: inline-block;
+}
+ourTeam li div {
+  height: 70px;
+  background: #ebebeb;
+  line-height: 70px;
+}
 
+.ourTeam li div img {
+  border-radius: 50%;
+  verticle-align: middle;
+}
