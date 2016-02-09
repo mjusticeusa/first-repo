@@ -111,11 +111,22 @@ ul, li. h5, em {
   padding: 0;
   list-style: none;
 }
-body {
-  background: black;
+.ourTeam {
+  background: #acd373;
+  text-align: center;
+}
+.ourTeam .container > h5 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #f7f7f7;
+}
+.ourTeam .container > p {
+    font-weight: normal;
+    font-size: 18px;
+    color: #f7f7f7;
 }
 .ourTeam li {
-  margin: 70px 15px 0 150px;
+  margin: 70px 13px 0 13px;
   background: white;
   text-align: center;
   width: 270px;
@@ -124,10 +135,15 @@ body {
   border-radius: 3px;
   display: inline-block;
 }
+.ourTeam li:first-of-type {
+  margin-left: 0;
+}
+.ourTeam li:last-of-type {
+  margin-right: 0;
+}
 .ourTeam li > img {
   margin-top: -70px;
   border-radius: 50%;
-  border: 5px solid #acd373;
 }
 .ourTeam li h5 {
   font-family: "Source Sans Pro";
@@ -154,4 +170,5 @@ ourTeam li div {
 .ourTeam li div img {
   border-radius: 50%;
   verticle-align: middle;
+  opacity: 0.65;
 }
