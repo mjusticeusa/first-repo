@@ -185,6 +185,7 @@ ourTeam li div {
 }
 .ourServices {
     text-align: center;
+    height: 735px;
 }
 .ourServices h3 {
     font-size: 30px;
@@ -210,11 +211,30 @@ ourTeam li div {
     font-family: "Droid Serif";
     font-style: normal;      
 }
-.graphic div img h4 {
+.graphic li {
     display: inline-block;
+    text-align: center;
 }
-.easle div img h4 {
+.graphic li:first-of-type {
+    margin-left: 0;
+}
+.graphic li:last-of-type {
+    margin-right: 0;
+}
+}
+.easle {
     display: inline-block;
+    text-align: center;
+}
+.easle li:first-of-type {
+  margin-left: 0;
+}
+.easle li:last-of-type {
+    margin-right: 0;
+}
+.learn img {
+    text-align: center
+    vertical-align: bottom;  
 }
 .next h6 img {
     display: inline-block;
