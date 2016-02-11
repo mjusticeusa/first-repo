@@ -134,6 +134,7 @@ ul, li. h5, em {
   position: relative;
   border-radius: 3px;
   display: inline-block;
+  vertical-align: top;
 }
 .ourTeam li:first-of-type {
   margin-left: 0;
