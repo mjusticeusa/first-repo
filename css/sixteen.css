@@ -172,3 +172,43 @@ ourTeam li div {
   verticle-align: middle;
   opacity: 0.65;
 }
+.collegeKids {
+    background-image: url("../img/college%20kids.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 523px;
+    line-height: 523px;
+    text-align: center;
+}
+.collegeKids img {
+    vertical-align: middle;
+}
+.ourServices {
+    text-align: center;
+}
+.ourServices h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #454545;
+    margin-top: 99px;
+    line-height: 30px;
+    font-family: "Source Sans Pro";
+    font-style: normal
+}
+.ourServices h3 span {
+    color: #acd373;
+}
+.ourServices hr {
+    border: none;
+    background: url("../img/Elipse%20black%20separator.png") no-repeat center center;
+    height: 10px;
+}
+.ourServices p {
+    font-size: 18px;
+    color: #515151;
+    line-height: 30px;
+    font-family: "Droid Serif";
+    font-style: normal;
+    
+        
+}
