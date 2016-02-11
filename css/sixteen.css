@@ -208,7 +208,17 @@ ourTeam li div {
     color: #515151;
     line-height: 30px;
     font-family: "Droid Serif";
-    font-style: normal;
-    
-        
+    font-style: normal;      
+}
+.graphic div img h4 {
+    display: inline-block;
+}
+.easle div img h4 {
+    display: inline-block;
+}
+.next h6 img {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 110px;
+    text-align: center;
 }
