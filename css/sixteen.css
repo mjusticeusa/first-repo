@@ -212,30 +212,18 @@ ourTeam li div {
     font-family: "Droid Serif";
     font-style: normal;      
 }
-.graphic li {
+.graphic ul {
     display: inline-block;
     text-align: center;
-}
-.graphic li:first-of-type {
-    margin-left: 0;
-}
-.graphic li:last-of-type {
-    margin-right: 0;
-}
 }
 .easle {
     display: inline-block;
     text-align: center;
 }
-.easle li:first-of-type {
-  margin-left: 0;
-}
-.easle li:last-of-type {
-    margin-right: 0;
-}
 .learn img {
     text-align: center
-    vertical-align: bottom;  
+    vertical-align: bottom; 
+    margin-bottom: 103px;
 }
 .next h6 img {
     display: inline-block;
