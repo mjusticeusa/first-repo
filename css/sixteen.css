@@ -115,6 +115,12 @@ ul, li. h5, em {
   background: #acd373;
   text-align: center;
 }
+.ourTeam {
+    padding-left: 40px
+}
+.ourTeam {
+    padding-right: 40px
+}
 .ourTeam .container > h5 {
     font-weight: normal;
     font-size: 30px;
@@ -222,8 +228,10 @@ ourTeam li div {
     font-family: "Droid" serif";
 }
 .next h6 img {
+    background: url("../img/we%20are%20hiring.png") no-repeat center center;
     display: inline-block;
     vertical-align: middle;
     line-height: 110px;
     text-align: center;
+    background-color: #9abd67;
 }
