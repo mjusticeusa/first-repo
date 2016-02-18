@@ -132,7 +132,7 @@ ul, li. h5, em {
     color: #f7f7f7;
 }
 .ourTeam li {
-  margin: 70px 13px 0 13px;
+  margin: 70px 15px 0 15px;
   background: white;
   text-align: center;
   width: 270px;
@@ -140,7 +140,6 @@ ul, li. h5, em {
   position: relative;
   border-radius: 3px;
   display: inline-block;
-  vertical-align: top;
 }
 .ourTeam li:first-of-type {
   margin-left: 0;
@@ -151,6 +150,7 @@ ul, li. h5, em {
 .ourTeam li > img {
   margin-top: -70px;
   border-radius: 50%;
+  border: 5px solid #acd373;
 }
 .ourTeam li h5 {
   font-family: "Source Sans Pro";
@@ -166,18 +166,24 @@ ul, li. h5, em {
   font-size: 16px;
   color: #787878;
   margin-top: 9px;
-  display: inline-block;
+  display: block;
 }
 ourTeam li div {
   height: 70px;
   background: #ebebeb;
   line-height: 70px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .ourTeam li div img {
   border-radius: 50%;
   verticle-align: middle;
   opacity: 0.65;
+  margin: 0 4px;
 }
 .collegeKids {
     background-image: url("../img/college%20kids.png");
@@ -191,17 +197,15 @@ ourTeam li div {
     vertical-align: middle;
 }
 .ourServices {
-    text-align: center;
-    height: 735px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 .ourServices h3 {
-    font-size: 30px;
-    text-transform: uppercase;
-    color: #454545;
-    margin-top: 99px;
-    line-height: 30px;
-    font-family: "Source Sans Pro";
-    font-style: normal
+  text-align: center;
+  font-size: 30px;
+  color: #454545;
+  font-family: "Source Sans Pro";
 }
 .ourServices h3 span {
     color: #acd373;
@@ -211,17 +215,32 @@ ourTeam li div {
     background: url("../img/Elipse%20black%20separator.png") no-repeat center center;
     height: 10px;
 }
-.ourServices p {
-    font-size: 18px;
-    color: #515151;
-    line-height: 30px;
-    font-family: "Droid Serif";
-    font-style: normal;      
+.ourServices li {
+  margin-top: 84px;
+  text-align: left;
 }
-.ourServices ul {
-    display: inline-block;
-    text-align: center;
+.ourServices li,
+.ourServices li div {
+  display: inline-block;
+  vertical-align: top;
 }
+.ourServices li div + div {
+  width: 280px;
+}
+.ourServices li h4 {
+  font-size: 20px;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  color: #acd373;
+  text-transform: uppercase;
+}
+.ourServices li p {
+  font-size: 18px;
+  color: #444444;
+  font-family: "Source Sans Pro";
+  margin-top: 18px;
+  line-height: 1.25em;
+}   
 .learn img {
     text-align: center; 
     margin-bottom: 103px;
