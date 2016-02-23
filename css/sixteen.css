@@ -119,7 +119,20 @@ ul, li. h5, em {
     padding-left: 40px
 }
 .ourTeam {
-    padding-right: 40px
+    padding-right: 40px;
+}
+.ourTeam ul {
+    position: relative;
+}
+.ourTeam .arrowLeft {
+    position: absolute;
+    left: -27px;
+    top: 155px;
+}
+.ourTeam .arrowRight {
+    position: absolute;
+    right: -27px;
+    top: 155px;
 }
 .ourTeam .container > h5 {
     font-weight: normal;
@@ -132,7 +145,7 @@ ul, li. h5, em {
     color: #f7f7f7;
 }
 .ourTeam li {
-  margin: 70px 15px 0 15px;
+  margin: 70px 12px 0 12px;
   background: white;
   text-align: center;
   width: 270px;
@@ -140,6 +153,7 @@ ul, li. h5, em {
   position: relative;
   border-radius: 3px;
   display: inline-block;
+  vertical-align: top;
 }
 .ourTeam li:first-of-type {
   margin-left: 0;
@@ -150,7 +164,6 @@ ul, li. h5, em {
 .ourTeam li > img {
   margin-top: -70px;
   border-radius: 50%;
-  border: 5px solid #acd373;
 }
 .ourTeam li h5 {
   font-family: "Source Sans Pro";
@@ -200,6 +213,9 @@ ourTeam li div {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
+    padding-left: 212px;
+    padding-right: 212px;
+    
 }
 .ourServices h3 {
   text-align: center;
@@ -217,7 +233,8 @@ ourTeam li div {
 }
 .ourServices li {
   margin-top: 84px;
-  text-align: left;
+  text-align: center;
+    width: 280px;
 }
 .ourServices li,
 .ourServices li div {
@@ -241,16 +258,22 @@ ourTeam li div {
   margin-top: 18px;
   line-height: 1.25em;
 }   
-.learn img {
+.learn {
     text-align: center; 
+}
+.learn img {
     margin-bottom: 103px;
     font-family: "Droid" serif";
 }
-.next h6 img {
-    background: url("../img/we%20are%20hiring.png") no-repeat center center;
-    display: inline-block;
-    vertical-align: middle;
+.next {
+    height: 110px;
     line-height: 110px;
     text-align: center;
     background-color: #9abd67;
+    color: #f7f7f7;
+    font-family: SourceSansPro;
+    font-size: 18px;
+}
+.next img {
+    vertical-align: middle;
 }
