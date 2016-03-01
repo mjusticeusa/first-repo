@@ -309,6 +309,7 @@ ourTeam li div {
 .recent ul {
     display: inline-block;
     vertical-align: top;
+    text-align: center;
 }
 .recent kick {
     background-image: url("../img/kick%20the%20boss2.png") no-repeat;
@@ -334,4 +335,11 @@ ourTeam li div {
     font-family: DroidSerif;
     font-size: 18px;
     font-style: italic;
+}
+.envato container {
+    text-align: center;
+    height: 119px;
+    width: 1600px;
+    background-color: #ebebeb;
+    vertical-align: middle;
 }
