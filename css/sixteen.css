@@ -278,9 +278,14 @@ ourTeam li div {
     vertical-align: middle;
 }
 .recent {
-    width: 1170px;
-    height: 1170px;
     background-color: #f7f7f7;
+}
+.recent h3 {
+    padding-top: 100px;
+}
+.recent li {
+    display: inline-block;
+    vertical-align: top;
 }
 .recent hr {
     border: none;
@@ -302,52 +307,70 @@ ourTeam li div {
 .recent p {
     text-align: center;    
 }
-.recent container {
-    padding-left: 214px;
-    padding-right: 214px;    
-}
-.recent ul {
-    display: inline-block;
-    vertical-align: top;
+.recent .container ul {
     text-align: center;
 }
-.recent kick {
-    background-image: url("../img/kick%20the%20boss2.png") no-repeat;
+.recent .kick {
+    padding-top: 25px;
+    padding-bottom: 28px;
+    background-color: #ebebeb;
 }
-.recent SEO {
-    background-image: url("../img/seo%20software.png") no-repeat;
+.recent h4 {
+    color: #454545;
+    font-family: SourceSansPro;
+    font-size: 18px;
+    font-weight: 700;
 }
-.recent automaty {
-    background-image: url("../img/automaty%20goes%20below%20kick%20the%20boss2.png") no-repeat;
+.recent p {
+    color: #787878;
+    font-family: DroidSerif;
+    font-size: 16px;
+    font-style: italic;
 }
-.recent screenr {
-    background-image: url("../img/SCREENR.png") no-repeat;
+.recent .seo {
+    padding-top: 26px;
+    padding-bottom: 29px; 
+    background-color: #ebebeb;
 }
-.recent little {
-    background background-image: url("../img/little%20brown%20jug%20below%20seo.png") no-repeat;
+.recent .automaty {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #ebebeb;
+}
+.recent .screenr {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #ebebeb;
+}
+.recent .little {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #ebebeb;
 }
 .view {
     text-align: center; 
 }
 .view img {
     margin-bottom: 73px;
+    margin-top: 80px;
     color: #acd373;
     font-family: DroidSerif;
     font-size: 18px;
     font-style: italic;
 }
-.envato li {
+.envato {
+    background-color: #ebebeb;
     text-align: center;
     height: 119px;
-    width: 1170px;
-    background-color: #ebebeb;
+    line-height: 119px; 
+}
+.envato img {
     verticle-align: middle;
 }
 .testimonials .container {
     background-image: url("../img/book pic.png");
     background-repeat: no-repeat;
     height: 550px;
-    width: 1170px;
     padding-left: 210px;
     padding-right: 210px;
     padding-top: 118px;
@@ -401,7 +424,6 @@ ourTeam li div {
 }
 .blog {
     height:690px;
-    Width: 1170px;
     background-color: #f7f7f7;
 }
 .blog h3 {
@@ -430,7 +452,6 @@ ourTeam li div {
 .map .container {
     background-image: url("../img/maps.png")
     vertical-align: middle;
-    width: 1170px;
     height: 500px;
 }
 .map .a {
@@ -441,7 +462,6 @@ ourTeam li div {
     font-color: #f7f7f7;
     text-align: center;
     height: 750px;
-    width: 1170px;
 }
 .copyright {
     background-color: #9abd67;
