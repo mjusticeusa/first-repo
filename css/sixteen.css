@@ -370,12 +370,11 @@ ourTeam li div {
 .testimonials .container {
     background-image: url("../img/book pic.png");
     background-repeat: no-repeat;
-    height: 550px;
     padding-left: 210px;
     padding-right: 210px;
     padding-top: 118px;
 }
-.testimonials .container li {
+.testimonials .container ul {
   display: inline-block;
   vertical-align: top;
   position: relative;
