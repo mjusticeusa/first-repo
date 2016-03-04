@@ -367,19 +367,14 @@ ourTeam li div {
 .envato img {
     verticle-align: middle;
 }
-.testimonials .container {
+.testimonials {
     background-image: url("../img/book pic.png");
     background-repeat: no-repeat;
-    padding-left: 210px;
-    padding-right: 210px;
     padding-top: 118px;
-    vertical-align: middle
 }
-.testimonials ul {
-  display: inline block;
-  vertical-align: middle;
-  position: relative;
-  text-align: center;
+.testimonials li {
+  display: inline-block;
+  vertical-align: top;
 }
 .testimonials .test {
     height: 259px;
@@ -420,6 +415,11 @@ ourTeam li div {
     width: 370px;
     margin: 0px;
     padding: 0;
+}
+.testimonials .dots {
+    display: block;
+    width: 55px;
+    margin: 0 auto;
 }
 .testimonials .second p {
     width: 340px;
