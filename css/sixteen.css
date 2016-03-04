@@ -373,15 +373,19 @@ ourTeam li div {
     padding-left: 210px;
     padding-right: 210px;
     padding-top: 118px;
+    vertical-align: middle
 }
-.testimonials .container ul {
-  display: inline-block;
-  vertical-align: top;
+.testimonials ul {
+  display: inline block;
+  vertical-align: middle;
   position: relative;
+  text-align: center;
 }
 .testimonials .test {
     height: 259px;
     width: 370px;
+    margin: 0px;
+    padding: 0;
 }
 .testimonials h3 {
     color: #f7f7f7;
@@ -400,6 +404,8 @@ ourTeam li div {
 .testimonials .beard {
     height: 259px;
     width: 370px;
+    margin: 0px;
+    padding: 0;
 }
 .testimonials .beard p {
     width: 333px;
@@ -412,6 +418,8 @@ ourTeam li div {
 .testimonials .second {
     height: 259px;
     width: 370px;
+    margin: 0px;
+    padding: 0;
 }
 .testimonials .second p {
     width: 340px;
