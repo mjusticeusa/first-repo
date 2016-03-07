@@ -371,6 +371,7 @@ ourTeam li div {
     background-image: url("../img/book pic.png");
     background-repeat: no-repeat;
     padding-top: 118px;
+    height: 540px;
 }
 .testimonials li {
   display: inline-block;
@@ -395,6 +396,8 @@ ourTeam li div {
     font-family: SourceSansPro;
     font-size: 18px;
     font-weight: 400;
+    padding-top: 39px;
+    padding-bottom: 46px;
 }
 .testimonials .beard {
     height: 259px;
@@ -409,6 +412,7 @@ ourTeam li div {
     font-family: DroidSerif;
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 40px;
 }
 .testimonials .second {
     height: 259px;
@@ -420,6 +424,16 @@ ourTeam li div {
     display: block;
     width: 55px;
     margin: 0 auto;
+    padding-top: 40px;
+}
+.testimonials h4 {
+    color: #acd373;
+}
+.testimonials h6 {
+    color: #f7f7f7;
+}
+.tesitmonials h4 h6 {
+    text-align: right;
 }
 .testimonials .second p {
     width: 340px;
@@ -428,17 +442,53 @@ ourTeam li div {
     font-family: DroidSerif;
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 40px;
+}
+.testimonials .beard p {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f7f7f7;
+}
+.beard p {
+  height: 120px;
+  width: 330px;
+}
+.beard p {
+  text-align: center;
+}
+.testimonials .second p {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f7f7f7;
+}
+.second p {
+  height: 120px;
+  width: 330px;
+}
+.second p {
+  text-align: center;
 }
 .blog {
     height:690px;
     background-color: #f7f7f7;
 }
-.blog h3 {
+.blog .container h3 {
     text-align: center;
     color: #454545;
     font-family: SourceSansPro;
     font-size: 30px;
     font-weight: 400;
+}
+.blog .container p {
+    text-align: center;
+    font-family: DroidSerif;
+    color: #454545;
+    font-size: 16px;
+}
+.blog hr {
+    border: none;
+    background: url("../img/Elipse%20black%20separator.png") no-repeat center center;
+    height: 10px;
 }
 .blog p {
     color: #454545;
@@ -446,22 +496,31 @@ ourTeam li div {
     font-size: 18px;
     font-weight: 400;
 }
-.blog ul {
-    position: relative;
-}
-.blog .ul div {
-    display: inline-block;
+.blog li {
+  display: inline-block;
+  vertical-align: middle;
 }
 .join {
     background-color: #acd373;
+    height: 110px;
     text-align: center;
 }
-.map .container {
-    background-image: url("../img/maps.png")
-    vertical-align: middle;
-    height: 500px;
+.join p {
+    color: #f7f7f7;
 }
-.map .a {
+.join img p {
+    display: inline-block;
+    vertical-align: middle;
+}
+.map {
+    background-image: url("../img/maps.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    text-align: center;
+    height: 500px;
+    line-height: 500px;
+}
+.map img {
     vertical-align: middle;
 }
 .contact {
