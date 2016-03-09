@@ -479,7 +479,7 @@ ourTeam li div {
     font-size: 30px;
     font-weight: 400;
 }
-.blog .container p {
+.blog p {
     text-align: center;
     font-family: DroidSerif;
     color: #454545;
@@ -490,27 +490,24 @@ ourTeam li div {
     background: url("../img/Elipse%20black%20separator.png") no-repeat center center;
     height: 10px;
 }
-.blog p {
-    color: #454545;
-    font-family: DroidSerif;
-    font-size: 18px;
-    font-weight: 400;
-}
 .blog li {
   display: inline-block;
   vertical-align: middle;
+}
+.blog img {
+    vertical-align: middle;
+    
 }
 .join {
     background-color: #acd373;
     height: 110px;
     text-align: center;
-}
-.join p {
     color: #f7f7f7;
 }
-.join img p {
-    display: inline-block;
+.join img {
     vertical-align: middle;
+    padding-left: 35px;
+    
 }
 .map {
     background-image: url("../img/maps.png");
