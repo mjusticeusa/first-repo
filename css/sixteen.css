@@ -213,15 +213,17 @@ ourTeam li div {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
-    padding-left: 212px;
-    padding-right: 212px;
-    
 }
 .ourServices h3 {
   text-align: center;
   font-size: 30px;
   color: #454545;
   font-family: "Source Sans Pro";
+}
+.ourServices p {
+    font-family: "Droid Serif";
+    margin-top: 20px;
+    font-size: 18px;
 }
 .ourServices h3 span {
     color: #acd373;
@@ -230,26 +232,57 @@ ourTeam li div {
     border: none;
     background: url("../img/Elipse%20black%20separator.png") no-repeat center center;
     height: 10px;
+    margin-top: 20px;
 }
 .ourServices li {
   margin-top: 84px;
   text-align: center;
+}
+.ourServices li span {
     width: 280px;
+    text-align: left;
+    color: #454545;
+    font-family: "Source Sans Pro";
+    line-height: 1.25em;
+}
+.ourServices li div {
+    width: 73px;
+    height: 78px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-right: 17px;
+}
+.ourServices li .paint {
+    background-image: url('../img/paintbrush.png');
+}
+.ourServices li .mini {
+    background-image: url('../img/mini%20cell%20phone.png');
+}
+.ourServices li .monitor {
+    background-image: url('../img/monitor.png');
+}
+.ourServices li .easle {
+    background-image: url('../img/easle.png');
+}
+.ourServices li .game {
+    background-image: url('../img/game%20controller.png');
+}
+.ourServices li .heart {
+    background-image: url('../img/heart.png');
 }
 .ourServices li,
-.ourServices li div {
+.ourServices li div,
+.ourServices li span {
   display: inline-block;
   vertical-align: top;
 }
-.ourServices li div + div {
-  width: 280px;
-}
 .ourServices li h4 {
-  font-size: 20px;
-  font-family: "Source Sans Pro";
-  font-weight: bold;
-  color: #acd373;
-  text-transform: uppercase;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    color: #acd373;
+    text-transform: uppercase;
+    margin-bottom: 13px;
 }
 .ourServices li p {
   font-size: 18px;
