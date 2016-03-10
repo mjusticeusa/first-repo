@@ -472,7 +472,7 @@ ourTeam li div {
     height:690px;
     background-color: #f7f7f7;
 }
-.blog .container h3 {
+.blog container h3 {
     text-align: center;
     color: #454545;
     font-family: SourceSansPro;
@@ -500,9 +500,10 @@ ourTeam li div {
 }
 .join {
     background-color: #acd373;
-    height: 110px;
+    height: 90px;
     text-align: center;
     color: #f7f7f7;
+    padding-top: 45px;
 }
 .join img {
     vertical-align: middle;
@@ -522,9 +523,24 @@ ourTeam li div {
 }
 .contact {
     background-color: #acd373;
-    font-color: #f7f7f7;
     text-align: center;
     height: 750px;
+}
+.contact h2 {
+    padding-top: 90px;
+    font-size: 30px;
+    font-color: #f7f7f7;
+    font-family: SourceSansPro;
+    margin-bottom: 19px;
+}
+.contact form {
+    margin-top: 39px;
+}
+.contact .box {
+    height: 400px;
+    width: 569px;
+    text-align: left;
+    margin-left: 510px;
 }
 .copyright {
     background-color: #9abd67;
