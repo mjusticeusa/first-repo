@@ -76,7 +76,7 @@ header a {
 .who p + p {
   margin-top: 30px;
 }
-.who a {
+a.greenlink {
   border: 1px solid #acd373;
   color: #acd373;
   font-family: "DroidSerif";
@@ -406,9 +406,17 @@ ourTeam li div {
     padding-top: 118px;
     height: 540px;
 }
+.testimonials .test h3 {
+    color: #f7f7f7;
+    font-family: "Source Sans Pro";
+    font-size: 30px;
+}
 .testimonials li {
   display: inline-block;
   vertical-align: top;
+}
+.testimonials li:last-of-type {
+    margin-left: 29px;
 }
 .testimonials .test {
     height: 259px;
@@ -416,36 +424,21 @@ ourTeam li div {
     margin: 0px;
     padding: 0;
 }
-.testimonials h3 {
-    color: #f7f7f7;
-    font-family: SourceSansPro;
-    font-size: 30px;
-    font-weight: 400;
-}
 .testimonials .test p {
     width: 259px;
     height: 104px;
     color: #f7f7f7;
-    font-family: SourceSansPro;
+    font-family: "Source Sans Pro";
     font-size: 18px;
-    font-weight: 400;
     padding-top: 39px;
     padding-bottom: 46px;
+    line-height: 1.25em;
 }
 .testimonials .beard {
     height: 259px;
     width: 370px;
     margin: 0px;
     padding: 0;
-}
-.testimonials .beard p {
-    width: 333px;
-    height: 51px;
-    color: #f7f7f7;
-    font-family: DroidSerif;
-    font-size: 16px;
-    font-weight: 400;
-    padding-bottom: 40px;
 }
 .testimonials .second {
     height: 259px;
@@ -456,50 +449,47 @@ ourTeam li div {
 .testimonials .dots {
     display: block;
     width: 55px;
-    margin: 0 auto;
+    margin-left: 730px;
     padding-top: 40px;
 }
 .testimonials h4 {
+    margin-top: 29px;
     color: #acd373;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
 }
 .testimonials h6 {
+    opacity: 0.85;
     color: #f7f7f7;
+    font-family: "Droid Serif";
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 15px;
 }
 .tesitmonials h4 h6 {
     text-align: right;
 }
+.testimonials .beard p, 
 .testimonials .second p {
-    width: 340px;
-    height: 55px;
     color: #f7f7f7;
-    font-family: DroidSerif;
+    font-family: "Droid Serif";
     font-size: 16px;
-    font-weight: 400;
-    padding-bottom: 40px;
+    line-height: 1.2em;
+    font-weight: 200;
+    background: url("../img/testimonial-bg.png") no-repeat;
+    padding-top: 24px;
+    padding-left: 13px;
+    padding-right: 13px;
+    width: 344px;
+    height: 118px;
 }
-.testimonials .beard p {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #f7f7f7;
+.testimonials li img,
+.testimonials li span {
+    display: inline-block;
+    vertical-align: top;
 }
-.beard p {
-  height: 120px;
-  width: 330px;
-}
-.beard p {
-  text-align: center;
-}
-.testimonials .second p {
-    border-style: solid;
-    border-width: 1px;
-    border-color: #f7f7f7;
-}
-.second p {
-  height: 120px;
-  width: 330px;
-}
-.second p {
-  text-align: center;
+.testimonials li span {
+    margin-left: 28px;
 }
 .blog {
     height:690px;
