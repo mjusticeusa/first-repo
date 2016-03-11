@@ -395,16 +395,17 @@ ourTeam li div {
     background-color: #ebebeb;
     text-align: center;
     height: 119px;
-    line-height: 119px; 
+    line-height: 150px; 
 }
 .envato img {
-    verticle-align: middle;
+    margin-left: -92px;
 }
 .testimonials {
     background-image: url("../img/book pic.png");
     background-repeat: no-repeat;
     padding-top: 118px;
     height: 540px;
+    margin-bottom:-109px;
 }
 .testimonials .test h3 {
     color: #f7f7f7;
@@ -494,32 +495,76 @@ ourTeam li div {
 .blog {
     height:690px;
     background-color: #f7f7f7;
+    padding-top: 110px;
+    margin-bottom: -90px;
 }
-.blog container h3 {
+.blog h3 {
     text-align: center;
     color: #454545;
-    font-family: SourceSansPro;
+    font-family: "Source Sans Pro";
     font-size: 30px;
-    font-weight: 400;
+    margin-bottom: 20px;
 }
 .blog p {
     text-align: center;
     font-family: DroidSerif;
     color: #454545;
     font-size: 16px;
+    margin-bottom: 18px;
 }
 .blog hr {
     border: none;
     background: url("../img/Elipse%20black%20separator.png") no-repeat center center;
     height: 10px;
+    margin-bottom: 55px;
 }
 .blog li {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 .blog img {
     vertical-align: middle;
-    
+    margin-top: -30px;
+}
+.blog li div {
+    height: 165px;
+    width: 270px;
+    background-color: #ebebeb;
+    padding-top: 170px;
+    text-align: center;
+    position: relative;
+    color: #454545;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+}
+.blog h4 {
+    margin-top: 17px;
+}
+.blog .web {
+    background: url("../img/web%20design2.png") no-repeat top center;
+}
+.blog .native {
+    background: url("../img/native%202.png") no-repeat top center;
+}
+.blog .not {
+    background: url("../img/wheat%20field.png") no-repeat top center;
+}
+.blog .quick {
+    background: url("../img/wood%20pile%202.png") no-repeat top center;
+}
+.blog span {
+    background-color: #acd373;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #f7f7f7;
+    font-family: DroidSerif;
+    font-size: 20px;
+    font-style: italic;
 }
 .join {
     background-color: #acd373;
