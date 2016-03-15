@@ -594,11 +594,11 @@ ourTeam li div {
     text-align: center;
     height: 750px;
 }
-.contact h2 {
+.contact .h2 {
     padding-top: 90px;
     font-size: 30px;
-    font-color: #f7f7f7;
-    font-family: SourceSansPro;
+    color: #f7f7f7;
+    font-family: "Source Sans Pro";
     margin-bottom: 19px;
 }
 .contact form {
@@ -610,17 +610,22 @@ ourTeam li div {
     text-align: left;
     margin-left: 510px;
 }
-.copyright {
+.footer {
     background-color: #9abd67;
     text-align: left;
-    padding-left: 220px;
-    padding-right: 220px;
+    /* padding-left: 220px; */
+    padding-top: 35px;
+    height: 53px;
+    vertical-align: middle;
 }
-.copyright h4 {
-    color: #f7f7f7;
+
+.footer ul {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
-.copyright {
-    background-image: url("../img/facebook,%20twitter,%20linked%20in%20logos%20at%20bottom%20of%20page.png");
-    background-repeat: no-repeat;
-    position: relative;
+.footer .li {
+    padding-left: 50px;
+    display: inline-block;
+    vertical-align: middle;
 }
