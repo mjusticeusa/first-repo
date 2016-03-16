@@ -304,11 +304,12 @@ ourTeam li div {
     text-align: center;
     background-color: #9abd67;
     color: #f7f7f7;
-    font-family: SourceSansPro;
+    font-family: "Source Sans Pro";
     font-size: 18px;
 }
 .next img {
     vertical-align: middle;
+    padding-left: 35px;
 }
 .recent {
     background-color: #f7f7f7;
@@ -326,7 +327,7 @@ ourTeam li div {
     height: 10px;
 }
 .recent h3 {
-    font-family: SourceSansPro;
+    font-family: "Source Sans Pro";
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -387,7 +388,7 @@ ourTeam li div {
     margin-bottom: 73px;
     margin-top: 80px;
     color: #acd373;
-    font-family: DroidSerif;
+    font-family: "Droid Serif";
     font-size: 18px;
     font-style: italic;
 }
@@ -507,7 +508,7 @@ ourTeam li div {
 }
 .blog p {
     text-align: center;
-    font-family: DroidSerif;
+    font-family: "Droid Serif";
     color: #454545;
     font-size: 16px;
     margin-bottom: 18px;
@@ -562,7 +563,7 @@ ourTeam li div {
     left: 0;
     width: 100%;
     color: #f7f7f7;
-    font-family: DroidSerif;
+    font-family: "Droid Serif";
     font-size: 20px;
     font-style: italic;
 }
@@ -572,11 +573,12 @@ ourTeam li div {
     text-align: center;
     color: #f7f7f7;
     padding-top: 45px;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
 }
 .join img {
     vertical-align: middle;
-    padding-left: 35px;
-    
+    padding-left: 35px;    
 }
 .map {
     background-image: url("../img/maps.png");
@@ -612,20 +614,19 @@ ourTeam li div {
 }
 .footer {
     background-color: #9abd67;
-    text-align: left;
+    text-align: center;
     /* padding-left: 220px; */
-    padding-top: 35px;
+    padding-top: 25px;
     height: 53px;
     vertical-align: middle;
 }
-
-.footer ul {
-    display: inline-block;
+.footer img {
     vertical-align: middle;
     text-align: center;
 }
-.footer .li {
-    padding-left: 50px;
-    display: inline-block;
-    vertical-align: middle;
+.footer coppyright {
+    margin-left: 9px;
+}
+.footer .facebook {
+    padding-left: 320px;
 }
