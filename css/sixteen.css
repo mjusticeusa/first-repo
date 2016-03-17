@@ -594,30 +594,68 @@ ourTeam li div {
 .contact {
     background-color: #acd373;
     text-align: center;
-    height: 750px;
+    height: 660px;
+    padding-bottom: 120px;
 }
-.contact .h2 {
+.contact h2 {
     padding-top: 90px;
     font-size: 30px;
     color: #f7f7f7;
     font-family: "Source Sans Pro";
     margin-bottom: 19px;
 }
-.contact form {
-    margin-top: 39px;
+.contact label {
+    display: block;
+    color: #f7f7f7;
+    margin-top: 35px;
+    margin-bottom: 17px;
 }
-.contact .box {
-    height: 400px;
-    width: 569px;
+.contact form {
+    /* height: 400px; */
+    width: 569px; 
     text-align: left;
-    margin-left: 510px;
+    margin: 0 auto;
+}
+.contact textarea {
+    height: 156px;
+}
+.contact label {
+    color: #f7f7f7;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+}
+.contact input,
+.contact textarea {
+    width: 92%;
+    display: block;
+    background: #9abd67;
+    border: none;
+    color: #f7f7f7;
+    font-family: "Droid Serif";
+    font-size: 15px;
+    font-style: italic;
+    padding: 13px 4%;
+}
+.contact .send {
+    color: #f7f7f7;
+    background-color: #9abd67;
+    font-family: "Droid Serif";
+    font-style: italic;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+    width: 80px;
+    text-align: center;
 }
 .footer {
     background-color: #9abd67;
     text-align: center;
     /* padding-left: 220px; */
-    padding-top: 25px;
-    height: 53px;
+    padding-top: 35px;
+    height: 75px;
     vertical-align: middle;
 }
 .footer img {
